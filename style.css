@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Outfit:wght@100;200;400;500;800&display=swap');
+*{
+    margin : 0;
+    padding : 0
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    min-height:  100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+hr{
+    margin : 2em auto;
+    height:0.8px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+
+span.{
+    text-align: right;
+}
+
+
+.container{
+    background-color :hsl(216, 50%, 16%);
+    max-width:355px;
+    margin : 0 auto;
+    border-radius: 17px;
+}
+
+.card{
+    max-width:375px;
+    padding : 18px;
+    border-radius: 17px;
+    text-align: left;
+    margin : 0 1em;
+    height :520px;
+
+}
+
+.card img{
+    width :100%;
+    border-radius: 12px;
+}
+
+.card h2{
+    color : white;
+    text-align : left;
+}
+
+.card p{
+
+    color:hsl(215, 51%, 70%);
+    font-size: 18px;
+
+}
+
+
